@@ -37,7 +37,7 @@
 
                             <h5>Email</h5>
 
-                            <p>barkat@example.com</p>
+                            <p>barkat.ali@enorness.org</p>
 
                         </div>
 
@@ -53,7 +53,7 @@
 
                             <h5>Phone</h5>
 
-                            <p>+92 XXX XXX XXXX</p>
+                            <p>+92 342 227 3138</p>
 
                         </div>
 
@@ -107,21 +107,13 @@
 
                         <div class="col-md-6 mb-4">
 
-                            <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Your Name"
-                                required>
+                            <input type="text" class="form-control" placeholder="Your Name" required>
 
                         </div>
 
                         <div class="col-md-6 mb-4">
 
-                            <input
-                                type="email"
-                                class="form-control"
-                                placeholder="Your Email"
-                                required>
+                            <input type="email" class="form-control" placeholder="Your Email" required>
 
                         </div>
 
@@ -129,31 +121,24 @@
 
                     <div class="mb-4">
 
-                        <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Subject"
-                            required>
+                        <input type="text" class="form-control" placeholder="Subject" required>
 
                     </div>
 
                     <div class="mb-4">
 
-                        <textarea
-                            class="form-control"
-                            rows="6"
-                            placeholder="Your Message"
-                            required></textarea>
+                        <textarea class="form-control" rows="6" placeholder="Your Message" required></textarea>
 
                     </div>
 
-                    <button class="btn btn-primary-custom">
+                    <a href="https://wa.me/923422273138?text=Hi%20Barkat,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project."
+                        target="_blank" class="btn btn-success-custom">
 
-                        <i class="fas fa-paper-plane me-2"></i>
+                        <i class="fab fa-whatsapp me-2"></i>
 
-                        Send Message
+                        Chat on WhatsApp
 
-                    </button>
+                    </a>
 
                 </form>
 

@@ -7,7 +7,8 @@
             <!-- Left Content -->
             <div class="col-lg-7" data-aos="fade-right">
 
-                     HELLO, I'M
+                <span class="hero-tag">
+                    HELLO, I'M
                 </span>
 
                 <h1 class="hero-title mt-4">
@@ -19,19 +20,37 @@
                     Laravel Backend Developer
                 </h2>
 
-                <p class="hero-description mt-4">
-                    I build scalable HRM Systems, REST APIs, Admin Dashboards,
-                    and Business Applications using Laravel, PHP, MySQL,
-                    JavaScript, and Bootstrap.
-                </p>
+                <p class="hero-description">
 
+                    I build scalable
+
+                    <span>HRM Systems</span>,
+
+                    <span>REST APIs</span>,
+
+                    <span>Admin Dashboards</span>
+
+                    and modern business applications using
+
+                    <span>Laravel</span>,
+
+                    <span>PHP</span>,
+
+                    <span>MySQL</span>,
+
+                    <span>JavaScript</span>
+
+                    and
+
+                    <span>Bootstrap</span>.
+
+                </p>
                 <div class="hero-buttons mt-5">
 
-                   
-
-                    <a href="{{ asset('resume/Barkat-Ali-CV.pdf') }}" class="btn btn-outline-custom ms-3" download>
+                    <a href="{{ asset('resume/Barkat-Ali-CV.pdf') }}" class="btn btn-outline-custom" download>
 
                         <i class="fas fa-download me-2"></i>
+
                         Download CV
 
                     </a>

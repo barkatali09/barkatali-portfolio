@@ -11,6 +11,7 @@
     gap: 18px;
 
     margin-top: 45px;
+    
 
 }
 
@@ -45,8 +46,93 @@
     transition: all .35s ease;
 
     overflow: hidden;
+    
 
 }
+
+.hero-tag {
+
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    border-radius: 30px;
+
+    background: rgba(124, 58, 237, .15);
+
+    border: 1px solid rgba(124, 58, 237, .25);
+
+    color: #A78BFA;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+    margin-top: 100px;
+    
+
+}
+
+.hero-title {
+
+    font-size: 84px;
+
+    font-weight: 800;
+
+    line-height: 1.05;
+
+    color: #FFFFFF;
+
+    margin: 20px 0;
+    text-shadow: 0 5px 30px rgba(124, 58, 237, .15);
+
+}
+
+.hero-title span {
+
+    background: linear-gradient(90deg, #7C3AED, #38BDF8);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+}
+
+.hero-role {
+
+    color: #CBD5E1;
+
+    font-size: 34px;
+
+    font-weight: 600;
+
+}
+
+.hero-description {
+
+    max-width: 650px;
+
+    color: #94A3B8;
+
+    font-size: 19px;
+
+    line-height: 2;
+
+}
+
+.hero-description span {
+
+    color: #38BDF8;
+
+    font-weight: 600;
+
+}
+
+
 
 /* GitHub */
 

@@ -24,10 +24,13 @@
     ========================== --}}
     @include('sections.skills')
 
+    
+
     {{-- =========================
         Projects Section
     ========================== --}}
     @include('sections.projects')
+    
 
     {{-- =========================
         Contact Section
