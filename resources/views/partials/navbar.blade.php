@@ -1,26 +1,61 @@
-<nav class="navbar navbar-expand-lg bg-white py-4 shadow-sm fixed-top">
+<nav class="navbar navbar-expand-lg custom-navbar fixed-top">
 
     <div class="container">
 
-        <a class="navbar-brand fw-bold fs-2" href="#">
-
-            Barkat<span class="text-primary">.</span>
-
+        {{-- Logo --}}
+        <a class="navbar-brand logo" href="{{ url('/') }}">
+            Barkat<span>.</span>
         </a>
 
-        <div class="navbar-nav ms-auto gap-4">
+        {{-- Mobile Toggle --}}
+        <button class="navbar-toggler border-0 shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
 
-            <a class="nav-link fw-semibold" href="#hero">Home</a>
+            <i class="fas fa-bars"></i>
 
-            <a class="nav-link fw-semibold" href="#about">About</a>
+        </button>
 
-            <a class="nav-link fw-semibold" href="#services">Services</a>
+        {{-- Navigation --}}
+        <div class="collapse navbar-collapse" id="navbarNav">
 
-            <a class="nav-link fw-semibold" href="#skills">Skills</a>
+            <ul class="navbar-nav ms-auto align-items-lg-center">
 
-            <a class="nav-link fw-semibold" href="#projects">Projects</a>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#hero">Home</a>
+                </li>
 
-            <a class="nav-link fw-semibold" href="#contact">Contact</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+                <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                    <a href="#contact" class="btn btn-primary-custom">
+                        Hire Me
+                    </a>
+                </li>
+
+            </ul>
 
         </div>
 

@@ -1,19 +1,20 @@
-<section id="projects" class="py-5">
+<section id="projects" class="projects-section py-5">
 
     <div class="container">
 
-        <div class="text-center mb-5">
+        <div class="text-center mb-5" data-aos="fade-up">
 
-            <h6 class="text-primary fw-bold text-uppercase">
-                Portfolio
-            </h6>
+            <span class="section-subtitle">
+                PORTFOLIO
+            </span>
 
-            <h2 class="fw-bold">
+            <h2 class="section-title mt-3">
                 Featured Projects
             </h2>
 
-            <p class="text-muted">
-                Some of my recent Laravel projects.
+            <p class="section-description mx-auto">
+                Here are some of the projects I've built using Laravel, PHP,
+                MySQL, JavaScript, and Bootstrap.
             </p>
 
         </div>
@@ -21,52 +22,53 @@
         <div class="row g-4">
 
             <!-- Project 1 -->
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
 
-                <div class="card h-100 shadow-sm border-0">
+                <div class="project-card">
 
-                    <img src="{{ asset('images/cameras.jpg') }}"
-                         class="card-img-top"
-                         alt="HRM">
+                    <img src="{{ asset('images/projects/hrm.jpg') }}"
+                         class="img-fluid project-image"
+                         alt="HRM System">
 
-                    <div class="card-body">
+                    <div class="project-body">
 
-                        <h4 class="fw-bold">
-                            HRM System
-                        </h4>
+                        <h4>HRM System</h4>
 
-                        <p class="text-muted">
-
-                            Employee management system with recurring jobs,
-                            attendance, task board and project management.
-
+                        <p>
+                            Employee management system with attendance,
+                            recurring jobs, task management,
+                            authentication, and role permissions.
                         </p>
 
-                        <div class="mb-3">
+                        <div class="project-tags">
 
-                            <span class="badge bg-primary">Laravel</span>
-
-                            <span class="badge bg-success">MySQL</span>
-
-                            <span class="badge bg-dark">Bootstrap</span>
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
 
                         </div>
 
-                    </div>
+                        <div class="project-buttons">
 
-                    <div class="card-footer bg-white border-0">
+                            <a href="#"
+                               class="btn btn-primary-custom">
 
-                        <a href="#" class="btn btn-primary">
+                                <i class="fab fa-github me-2"></i>
 
-                            GitHub
+                                GitHub
 
-                        </a>
+                            </a>
 
-                        <a href="#" class="btn btn-outline-dark">
+                            <a href="#"
+                               class="btn btn-outline-custom">
 
-                            Live Demo
+                                <i class="fas fa-arrow-up-right-from-square me-2"></i>
 
-                        </a>
+                                Live
+
+                            </a>
+
+                        </div>
 
                     </div>
 
@@ -76,52 +78,59 @@
 
             <!-- Project 2 -->
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6"
+                 data-aos="fade-up"
+                 data-aos-delay="150">
 
-                <div class="card h-100 shadow-sm border-0">
+                <div class="project-card">
 
-                    <img src="{{ asset('images/laptops.jpg') }}"
-                         class="card-img-top"
-                         alt="Ecommerce">
+                    <img src="{{ asset('images/projects/ecommerce.jpg') }}"
+                         class="img-fluid project-image"
+                         alt="E-Commerce">
 
-                    <div class="card-body">
+                    <div class="project-body">
 
-                        <h4 class="fw-bold">
-                            Ecommerce
-                        </h4>
+                        <h4>E-Commerce Store</h4>
 
-                        <p class="text-muted">
+                        <p>
 
-                            Complete ecommerce solution with authentication,
-                            products, cart and checkout.
+                            Full-featured e-commerce platform with
+                            authentication, products, cart,
+                            checkout and admin dashboard.
 
                         </p>
 
-                        <div class="mb-3">
+                        <div class="project-tags">
 
-                            <span class="badge bg-primary">Laravel</span>
+                            <span>Laravel</span>
 
-                            <span class="badge bg-warning text-dark">PHP</span>
+                            <span>PHP</span>
 
-                            <span class="badge bg-success">MySQL</span>
+                            <span>MySQL</span>
 
                         </div>
 
-                    </div>
+                        <div class="project-buttons">
 
-                    <div class="card-footer bg-white border-0">
+                            <a href="#"
+                               class="btn btn-primary-custom">
 
-                        <a href="#" class="btn btn-primary">
+                                <i class="fab fa-github me-2"></i>
 
-                            GitHub
+                                GitHub
 
-                        </a>
+                            </a>
 
-                        <a href="#" class="btn btn-outline-dark">
+                            <a href="#"
+                               class="btn btn-outline-custom">
 
-                            Live Demo
+                                <i class="fas fa-arrow-up-right-from-square me-2"></i>
 
-                        </a>
+                                Live
+
+                            </a>
+
+                        </div>
 
                     </div>
 
@@ -131,52 +140,59 @@
 
             <!-- Project 3 -->
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6"
+                 data-aos="fade-up"
+                 data-aos-delay="300">
 
-                <div class="card h-100 shadow-sm border-0">
+                <div class="project-card">
 
-                    <img src="{{ asset('images/sony.jpg') }}"
-                         class="card-img-top"
-                         alt="Booking">
+                    <img src="{{ asset('images/projects/portfolio.jpg') }}"
+                         class="img-fluid project-image"
+                         alt="Portfolio">
 
-                    <div class="card-body">
+                    <div class="project-body">
 
-                        <h4 class="fw-bold">
-                            Booking System
-                        </h4>
+                        <h4>Developer Portfolio</h4>
 
-                        <p class="text-muted">
+                        <p>
 
-                            Online booking system with authentication,
-                            reservations and admin dashboard.
+                            Personal portfolio built using Laravel,
+                            Bootstrap, modern CSS,
+                            and responsive design.
 
                         </p>
 
-                        <div class="mb-3">
+                        <div class="project-tags">
 
-                            <span class="badge bg-primary">Laravel</span>
+                            <span>Laravel</span>
 
-                            <span class="badge bg-danger">REST API</span>
+                            <span>Bootstrap</span>
 
-                            <span class="badge bg-success">MySQL</span>
+                            <span>CSS</span>
 
                         </div>
 
-                    </div>
+                        <div class="project-buttons">
 
-                    <div class="card-footer bg-white border-0">
+                            <a href="#"
+                               class="btn btn-primary-custom">
 
-                        <a href="#" class="btn btn-primary">
+                                <i class="fab fa-github me-2"></i>
 
-                            GitHub
+                                GitHub
 
-                        </a>
+                            </a>
 
-                        <a href="#" class="btn btn-outline-dark">
+                            <a href="#"
+                               class="btn btn-outline-custom">
 
-                            Live Demo
+                                <i class="fas fa-arrow-up-right-from-square me-2"></i>
 
-                        </a>
+                                Live
+
+                            </a>
+
+                        </div>
 
                     </div>
 
@@ -188,4 +204,4 @@
 
     </div>
 
-</section>  
+</section>

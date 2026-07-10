@@ -1,0 +1,242 @@
+/* ===========================
+   Hero Social Icons
+=========================== */
+
+.hero-social {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    margin-top: 45px;
+
+}
+
+.hero-social a {
+
+    width: 58px;
+
+    height: 58px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-decoration: none;
+
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, .05);
+
+    backdrop-filter: blur(18px);
+
+    -webkit-backdrop-filter: blur(18px);
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    color: #F8FAFC;
+
+    font-size: 24px;
+
+    transition: all .35s ease;
+
+    overflow: hidden;
+
+}
+
+/* GitHub */
+
+.hero-social a:nth-child(1):hover {
+
+    background: #24292E;
+
+    color: #fff;
+
+    transform: translateY(-8px) rotate(-5deg);
+
+    box-shadow: 0 15px 35px rgba(36, 41, 46, .45);
+
+}
+
+/* LinkedIn */
+
+.hero-social a:nth-child(2):hover {
+
+    background: #0A66C2;
+
+    color: #fff;
+
+    transform: translateY(-8px) rotate(-5deg);
+
+    box-shadow: 0 15px 35px rgba(10, 102, 194, .45);
+
+}
+
+/* Email */
+
+.hero-social a:nth-child(3):hover {
+
+    background: #EA4335;
+
+    color: #fff;
+
+    transform: translateY(-8px) rotate(-5deg);
+
+    box-shadow: 0 15px 35px rgba(234, 67, 53, .45);
+
+}
+
+/* Floating Animation */
+
+.hero-social a {
+
+    animation: floatIcon 4s ease-in-out infinite;
+
+}
+
+.hero-social a:nth-child(2) {
+
+    animation-delay: .3s;
+
+}
+
+.hero-social a:nth-child(3) {
+
+    animation-delay: .6s;
+
+}
+
+@keyframes floatIcon {
+
+    0%,
+    100% {
+
+        transform: translateY(0);
+
+    }
+
+    50% {
+
+        transform: translateY(-6px);
+
+    }
+
+}
+
+
+
+
+/* ===========================
+   Scroll Indicator
+=========================== */
+
+.scroll-indicator {
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: 40px;
+
+    transform: translateX(-50%);
+
+    z-index: 10;
+
+}
+
+.scroll-indicator a {
+
+    width: 60px;
+
+    height: 60px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    color: #F8FAFC;
+
+    font-size: 20px;
+
+    background: rgba(255, 255, 255, .05);
+
+    backdrop-filter: blur(15px);
+
+    -webkit-backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    transition: all .35s ease;
+
+    animation: bounceDown 2s infinite;
+
+}
+
+.scroll-indicator a:hover {
+
+    background: linear-gradient(135deg, #7C3AED, #38BDF8);
+
+    color: #fff;
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 35px rgba(124, 58, 237, .4);
+
+}
+
+@keyframes bounceDown {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+
+        transform: translateY(0);
+
+    }
+
+    40% {
+
+        transform: translateY(10px);
+
+    }
+
+    60% {
+
+        transform: translateY(5px);
+
+    }
+
+}
+
+
+@media (max-width:768px) {
+
+    .scroll-indicator {
+
+        bottom: 20px;
+
+    }
+
+    .scroll-indicator a {
+
+        width: 50px;
+
+        height: 50px;
+
+        font-size: 18px;
+
+    }
+
+}

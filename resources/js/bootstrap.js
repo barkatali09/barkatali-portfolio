@@ -1,4 +1,33 @@
-import axios from 'axios';
-window.axios = axios;
+const button = document.getElementById('backToTop');
 
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+window.addEventListener('scroll', () => {
+
+    if (!button) return;
+
+    if (window.scrollY > 300) {
+
+        button.style.display = 'flex';
+
+    } else {
+
+        button.style.display = 'none';
+
+    }
+
+});
+
+if (button) {
+
+    button.addEventListener('click', () => {
+
+        window.scrollTo({
+
+            top: 0,
+
+            behavior: 'smooth'
+
+        });
+
+    });
+
+}

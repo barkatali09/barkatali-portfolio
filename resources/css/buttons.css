@@ -1,0 +1,37 @@
+.btn-primary-custom {
+
+    background: linear-gradient(135deg,
+            #7C3AED,
+            #38BDF8);
+
+    border: none;
+
+    color: white;
+
+    box-shadow: 0 10px 30px rgba(124, 58, 237, .4);
+
+}
+
+.btn-primary-custom:hover {
+
+    transform: translateY(-4px) scale(1.03);
+
+    box-shadow: 0 20px 40px rgba(124, 58, 237, .5);
+
+}
+
+.btn-outline-custom {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 34px;
+    border: 2px solid #38BDF8;
+    color: #38BDF8;
+    border-radius: 14px;
+    transition: .3s;
+}
+
+.btn-outline-custom:hover {
+    background: #38BDF8;
+    color: #fff;
+}

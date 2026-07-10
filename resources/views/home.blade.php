@@ -1,19 +1,37 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'Barkat Ali | Laravel Backend Developer')
 
 @section('content')
 
-@include('sections.hero')
+    {{-- =========================
+        Hero Section
+    ========================== --}}
+    @include('sections.hero')
 
-@include('sections.about')
+    {{-- =========================
+        About Section
+    ========================== --}}
+    @include('sections.about')
 
-@include('sections.services')
+    {{-- =========================
+        Services Section
+    ========================== --}}
+    @include('sections.services')
 
-@include('sections.skills')
+    {{-- =========================
+        Skills Section
+    ========================== --}}
+    @include('sections.skills')
 
-@include('sections.experience')
+    {{-- =========================
+        Projects Section
+    ========================== --}}
+    @include('sections.projects')
 
-@include('sections.projects')
+    {{-- =========================
+        Contact Section
+    ========================== --}}
+    @include('sections.contact')
 
 @endsection
